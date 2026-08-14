@@ -14,6 +14,9 @@ $(call inherit-product, device/xiaomi/rosemary/device.mk)
 # Inherit some common CiRCLE stuff.
 $(call inherit-product, vendor/circle/config/common_full_phone.mk)
 
+#CiRCLE Flag
+CIRCLE_MAINTAINER := Pietroe43
+
 PRODUCT_NAME := circle_rosemary
 PRODUCT_DEVICE := rosemary
 PRODUCT_MANUFACTURER := Xiaomi
